@@ -226,7 +226,6 @@ else:
     time.sleep(1)
     sys.exit()
 
-robots(url)
 print('Which type of files do you want to search for ? (Default is both , for default just press enter , will take time )')
 print('1. PHP\n2. ASP\n3. JS\n4. CGI\n5. CFM\n6. BRF\n7. Exit')
 ans=input()
@@ -241,3 +240,5 @@ else:
         test(ans)
     else:
         print('Please enter a valid option')
+robots(url)
+sys.exit()
