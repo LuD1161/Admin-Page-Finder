@@ -214,7 +214,7 @@ def formatting(nameOfFile):
 print("Enter the link without http:// \n\n")
 print("Like this --- www.google.com\n\n")
 print("If the link follows a redirect , please put in the final link ")
-url = 'www.alternativesol.com'
+url = input()
 url = url.lower()
 rx = re.compile('Username',re.IGNORECASE)
 newDirs = []
